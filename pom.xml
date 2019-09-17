@@ -41,5 +41,5 @@
 		<artifactId>javax.servelet.api</artifactId>
 		<version>3.0.1</version>
 	</dependency>
-  </dependencies?
+	</dependencies>
 </project>
