@@ -1,36 +1,17 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0"
-  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-  <modelVersion>4.0.0</modelVersion>
-
-  <groupId>com.parthsharma97</groupId>
-  <artifactId>helloworld</artifactId>
-  <version>2.5-SNAPSHOT</version>
-  <packaging>war</packaging>
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+                      http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
 
 
-  <build>
-    <sourceDirectory>src</sourceDirectory>
-    <plugins>
-<!--       <plugin>
-        <artifactId>maven-compiler-plugin</artifactId>
-        <version>3.3</version>
-        <configuration>
-          <source>1.8</source>
-          <target>1.8</target>
-        </configuration>
-      </plugin> -->
-	  <plugin>
-		<artifactId>maven-war-plugin</artifactId>
-		<version>2.6</version>
-		<configuration>
-			<warSourceDirectory>WebContent</warSourceDirectory>
-			<failOnMissingWebXml>false</failOnMissingWebXml>
-		</configuration>
-	  </plugin>
-    </plugins>
-  </build>
+    <groupId>com.jenkov</groupId>
+
+    <artifactId>hello-world</artifactId>
+
+    <version>1.0.0</version>
+
+</project>
   <distributionManagement>
 	<repository>
 		<id>deployment</id>
@@ -43,11 +24,5 @@
 		<url>http://35.190.141.61:8081/repository/SAMPLE-SNAP/</url>
 	</snapshotRepository>
   </distributionManagement>
-<!--   <dependencies>
-	<dependency>
-		<groupId>javax.servelet</groupId>
-		<artifactId>javax.servelet.api</artifactId>
-		<version>3.0.1</version>
-	</dependency>
-  </dependencies> -->
+
 </project>
