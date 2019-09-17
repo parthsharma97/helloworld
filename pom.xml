@@ -6,7 +6,7 @@
   <packaging>jar</packaging>
   <version>2.5-SNAPSHOT</version>
   <name>Howdy Plugin</name>
-  <url>http://org.apache.maven.plugins</url>
+  <url>http://maven.apache.org</url>
   <distributionManagement>
   	<repository>
 		<id>deployment</id>
