@@ -10,7 +10,7 @@
   <packaging>war</packaging>
 
 
-  <build>
+<!--   <build>
     <sourceDirectory>src</sourceDirectory>
     <plugins>
       <plugin>
@@ -30,7 +30,7 @@
 		</configuration>
 	  </plugin>
     </plugins>
-  </build>
+  </build> -->
   <distributionManagement>
 	<repository>
 		<id>deployment</id>
