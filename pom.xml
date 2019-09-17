@@ -3,10 +3,10 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.maventest</groupId>
   <artifactId>maven-howdy-plugin</artifactId>
-  <packaging>maven-plugin</packaging>
+  <packaging>jar</packaging>
   <version>1.0-SNAPSHOT</version>
   <name>Howdy Plugin</name>
-  <url>http://maven.apache.org</url>
+  <url>http://org.apache.maven.plugins</url>
   <distributionManagement>
   	<repository>
 		<id>deployment</id>
