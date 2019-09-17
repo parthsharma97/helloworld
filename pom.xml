@@ -35,11 +35,11 @@
 		<url>http://35.190.141.61:8081/repository/SAMPLE-SNAP/</url>
 	</snapshotRepository>
   </distributionManagement>
-  <dependencies>
+<!--   <dependencies>
 	<dependency>
 		<groupId>javax.servelet</groupId>
 		<artifactId>javax.servelet.api</artifactId>
 		<version>3.0.1</version>
 	</dependency>
-	</dependencies>
+	</dependencies> -->
 </project>
