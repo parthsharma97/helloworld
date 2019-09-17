@@ -4,7 +4,7 @@
   <groupId>com.maventest</groupId>
   <artifactId>maven-howdy-plugin</artifactId>
   <packaging>jar</packaging>
-  <version>1.0-SNAPSHOT</version>
+  <version>2.5-SNAPSHOT</version>
   <name>Howdy Plugin</name>
   <url>http://org.apache.maven.plugins</url>
   <distributionManagement>
