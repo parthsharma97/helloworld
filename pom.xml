@@ -2,10 +2,10 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.maventest</groupId>
-  <artifactId>maven-howdy-plugin</artifactId>
+  <artifactId>helloworld</artifactId>
   <packaging>jar</packaging>
   <version>2.5-SNAPSHOT</version>
-  <name>Howdy Plugin</name>
+  <name>Hello World</name>
   <url>http://maven.apache.org</url>
   <distributionManagement>
   	<repository>
