@@ -3,7 +3,7 @@ pipeline {
      stages {
          stage('--clean--') {
             steps {
-                try{
+                try {
                     sh "mvn clean"
                     echo "Im not going to fail"
                     currentBuild.result = 'SUCCESS'
@@ -15,7 +15,7 @@ pipeline {
          }
          stage('--test--') {
             steps {
-                try{
+                try {
                     sh "mvn test"
                     echo "Im not going to fail"
                     currentBuild.result = 'SUCCESS'
@@ -27,7 +27,7 @@ pipeline {
          }
          stage('--package--') {
             steps {
-                try{
+                try {
                     sh "mvn package"
                     echo "Im not going to fail"
                     currentBuild.result = 'SUCCESS'
@@ -39,7 +39,7 @@ pipeline {
          }
          stage('--deploy--') {
             steps {
-                try{
+                try {
                     sh "mvn deploy"
                     echo "Im not going to fail"
                     currentBuild.result = 'SUCCESS'
