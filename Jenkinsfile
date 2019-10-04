@@ -3,22 +3,50 @@ pipeline {
      stages {
          stage('--clean--') {
             steps {
-                sh "mvn clean"
+                try{
+                    sh "mvn clean"
+                    echo "Im not going to fail"
+                    currentBuild.result = 'SUCCESS'
+                    } catch (Exception err) {
+                    currentBuild.result = 'FAILURE'
+                  }
+                echo "RESULT: ${currentBuild.result}"
                }
          }
          stage('--test--') {
             steps {
-                sh "mvn test"
+                try{
+                    sh "mvn test"
+                    echo "Im not going to fail"
+                    currentBuild.result = 'SUCCESS'
+                    } catch (Exception err) {
+                    currentBuild.result = 'FAILURE'
+                   }
+                echo "RESULT: ${currentBuild.result}"
                }
          }
          stage('--package--') {
             steps {
-                sh "mvn package"
+                try{
+                    sh "mvn package"
+                    echo "Im not going to fail"
+                    currentBuild.result = 'SUCCESS'
+                    } catch (Exception err) {
+                    currentBuild.result = 'FAILURE'
+                   }
+                echo "RESULT: ${currentBuild.result}"
                }
          }
          stage('--deploy--') {
             steps {
-                sh "mvn deploy"
+                try{
+                    sh "mvn deploy"
+                    echo "Im not going to fail"
+                    currentBuild.result = 'SUCCESS'
+                    } catch (Exception err) {
+                    currentBuild.result = 'FAILURE'
+                   }
+                echo "RESULT: ${currentBuild.result}"
                }
          }
     }
