@@ -6,7 +6,7 @@ pipeline {
                 echo "Hello World!"
             }
         }
-        stage('--deploy--') {
+        stage('deploy') {
             steps {
                 sh "mvn deploy"  
                }
