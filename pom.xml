@@ -11,12 +11,12 @@
   	<repository>
 		<id>deployment</id>
 		<name>Internal Releases</name>
-		<url>http://34.74.124.189:8081/repository/Jenkins_Nexus-REL/</url>
+		<url>http://34.73.210.130:8081/repository/Jenkins_Nexus-REL/</url>
 	</repository>
 	<snapshotRepository>
 		<id>deployment</id>
 		<name>Internal Snapshot Releases</name>
-		<url>http://34.74.124.189:8081/repository/Jenkins_Nexus-SNAP/</url>
+		<url>http://34.73.210.130:8081/repository/Jenkins_Nexus-SNAP/</url>
 	</snapshotRepository>
   </distributionManagement>
   <dependencies>
